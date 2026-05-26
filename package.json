@@ -60,15 +60,5 @@
     "@anthropic-ai/sdk": "^0.32.1",
     "@google/genai": "^1.42.0",
     "openai": "^4.104.0"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": ["esbuild", "protobufjs", "sharp", "workerd"],
-    "overrides": {
-      "minimatch@9": "^9.0.7",
-      "brace-expansion@5": "^5.0.6",
-      "picomatch@2": "^2.3.2",
-      "protobufjs@7": "^7.5.8",
-      "ws@8": "^8.20.1"
-    }
   }
 }
